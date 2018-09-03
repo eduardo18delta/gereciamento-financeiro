@@ -31,7 +31,7 @@ class Login{
     		exit;
 		}
 
-		header("Location: ../menu.php");
+		header("Location: ../menu.php?titulo=menu");
 
 		$this->loggaUsuario();
 
