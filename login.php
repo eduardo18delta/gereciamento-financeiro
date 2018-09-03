@@ -3,12 +3,10 @@
 require_once 'header.php'
 
 ?>
-
 <div class="container">
 
 <div class="row rowlogin">
 <div class="col-md-6">
-
 
 <form class="login" autocomplete="off" action="login/login.php" method="post">
 
@@ -31,7 +29,6 @@ require_once 'header.php'
 
 </div>
 
-
 <div class="col-md-6">
 
 <div class="informacoes">
@@ -42,12 +39,7 @@ require_once 'header.php'
 </div>
 </div>
 
-
 </form>
-
-
-
-
 
 <?php
 
