@@ -30,6 +30,15 @@ class Chamadordeheader {
             $this->titulo = "login";
             $this->icon = '"img/icons/login_system.png"';
             break;
+        case 'error':
+            $this->titulo = "Erro";
+            $this->icon = '"img/icons/error_system.png"';
+            break;
+
+        case '':
+            $this->titulo = "Erro";
+            $this->icon = '"img/icons/error_system.png"';
+            break;
                 
         default:
             $titulo = "Error page";

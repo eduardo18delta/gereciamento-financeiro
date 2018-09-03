@@ -1,5 +1,6 @@
 <?php
 
+// Get da data atual
 $data = date('d-m-Y');
 
 ?>

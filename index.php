@@ -5,5 +5,5 @@
 		$uri = 'http://';
 	}
 	$uri .= $_SERVER['HTTP_HOST'];
-	header('Location: '.$uri.'/costs-expenses/login.php?titulo=login');
+	header('Location: '.$uri.'/financeiro/login.php?titulo=login');
 	exit;
