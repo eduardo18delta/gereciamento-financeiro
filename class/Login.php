@@ -2,7 +2,7 @@
 
 require_once 'Conexao.php';
 
-class Login{
+class Conexao extends Login{
 
 	public $username;
 	public $password;
